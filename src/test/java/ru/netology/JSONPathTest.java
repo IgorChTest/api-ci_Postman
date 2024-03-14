@@ -20,7 +20,7 @@ public class JSONPathTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("test"))
+                .body("data", equalTo("Test"))
         ;
     }
 }
